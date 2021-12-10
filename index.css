@@ -7,3 +7,11 @@ body {
     margin: 20px;
     padding: 80px;
 }
+
+.row {
+    align-items: center;
+}
+
+.col-md-3 {
+    border: 2px solid orange;
+}
