@@ -1,0 +1,9 @@
+body {
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+    border: solid 2px white;
+    text-align: center;
+    margin: 40px;
+    padding: 70px;
+}
