@@ -16,4 +16,11 @@ birthDate.addEventListener('click', function(e) {
 
     const Div1 = document.createElement('div');
     Div1.classList.add('display');
+
+    let dateOfBirth = finalDate.getDay();
+    if (gender == "Male") {
+        if (dateOfBirth == 0)
+
+    }
+
 })
