@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="index.css">
     <link href="index.css" rel="stylesheet" type="text/css" />
     <title>Birthday Generator Web app</title>
 </head>
@@ -23,10 +22,11 @@
                 <form>
                     <div class="row">
                         <div class="col-md-3">
-                            <input type="radio" name="gender" value="male" id="gender-male">
-                            <label for="gender-male" class="form-label">Male</label><br>
-                            <input type="radio" name="gender" value="female" id="gender-female">
-                            <label for="gender-female">Female</label>
+                            <select id="gender" class="form-select">
+                                <option selected>select</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                              </select>
                         </div>
                         <div class="col-md-3">
                             <label for="date" class="form-label"></label>

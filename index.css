@@ -11,11 +11,3 @@ body {
 .row {
     align-items: center;
 }
-
-.col-md-3 {
-    border: 2px solid orange;
-}
-
-.col-md-2 {
-    border: 2px solid orange;
-}
