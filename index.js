@@ -7,11 +7,12 @@ birthDate.addEventListener('click', function(e) {
     var show = document.querySelector(".show");
     var gender = $("#gender").val();
     var month = $("#month").val();
+
     var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    var days = ["Sunday", "Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday"];
+    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var date2 = parseInt(dob);
-    var date3 = month + "" + date2 + "" + year;
+    var date3 = month + " " + date2 + " " + year;
     var finalDate = new Date(date3);
 
     const Div1 = document.createElement('div');
@@ -25,7 +26,7 @@ birthDate.addEventListener('click', function(e) {
     Div1.appendChild(todoItem)
     show.appendChild(Div1);
 
-    let dateOfBirth = finalDate.getDay();
+    let dateOfBirth = date3.getDay();
     if (gender == "Male" && dateOfBirth == 0) {
         todoItem.innerHTML = "Your Akan Ghanian name is " + maleNames[0] + ". you were born on " + days[0]
     }
