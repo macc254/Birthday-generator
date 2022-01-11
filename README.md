@@ -1,4 +1,5 @@
-# The_Burger_Palace
+# Birthday-generator
+ 
 https://github.com/macc254/Birthday-generator.git
 Birthday-generator
 # Author
